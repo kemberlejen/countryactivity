@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     display: flex;
-    height: 90vh;
+    height: 220vh;
     position: relative;
     background-color: black;
 }
@@ -48,7 +48,6 @@ body {
     padding: 30px;
     overflow: hidden;
 }
-
 .icon img {
     width: 230px;
     height: 230px;
@@ -66,3 +65,35 @@ body {
     padding-left: 20px;
     letter-spacing: -1px;
 }
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 100px auto;
+    margin-top: 400px;
+    padding-bottom: 150px;
+  }
+  .places div {
+    background-color: #121212;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    overflow: hidden;
+  }
+  .places img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+  .places h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ebe2e2;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  
