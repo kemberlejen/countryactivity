@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    height: 90vh;
+    position: relative;
+    background-color: black;
+}
+.sidebar {
+    width: 220px;
+    height: 722px;
+    background: linear-gradient(to bottom, #121212, black);
+    color: white;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.sidebar header {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sidebar nav a {
+    display: block;
+    color: #b3b3b3;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.sidebar nav a:hover {
+    color: white;
+}
+.icon {
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    width: 1265px;
+    height: 300px;
+    background: linear-gradient(to bottom, #7dece3, #121212);
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    overflow: hidden;
+}
+.icon img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+.icon h1 {
+    position: absolute;
+    top: 15vh;
+    left: 300px;
+    z-index: 3;
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    padding-left: 20px;
+    letter-spacing: -1px;
+}
+.option {
+    width: 900px;
+    margin-left: 250px;
+    margin-top: 330px;
+    padding: 20px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.option nav {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    z-index: 10;
+    margin-top: 20px;
+}
+.option nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 28px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+.option nav a:hover {
+    color: #7dece3;
+}
+html {
+    scroll-behavior: smooth;
+}
+.clothing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+.clothing div {
+    text-align: center;
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 20px;
+    width: 240px;
+}
+.clothing img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.tradition {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.tradition div {
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    box-sizing: border-box;
+}
+.tradition img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.tradition p {
+    color: white;
+    text-align: justify;
+}
+.fooditem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.fooditem div {
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: justify;
+}
+.fooditem img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.fooditem p {
+    color: white;
+}
+.art-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.art-gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+section h2 {
+    text-align: center;
+    color: #e1dbb5;
+    margin-top: 40px;
+    font-size: 24px;
+}
